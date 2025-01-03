@@ -200,6 +200,12 @@ div.abs {
 	font-size:20px
 }
 
+#very_start {
+	z-index:3000;
+	height:auto;
+	font-size:20px
+}
+
 #very_start_bg1 {
 	background-image:url("../images/start.jpg");
 }
@@ -208,13 +214,23 @@ div.abs {
 	top:3%;
 	width:32%;
 	height:94%;
-	border:solid 4px #fff
+	border:outset 7px #fff
+}
+
+
+#very_start_bg2:hover {
+	border: outset 7px goldenrod;
+	box-shadow:0 0 3vw goldenrod;
+	background-origin:border-box
 }
 
 #very_start_gradient {
 	top:0;
-	background-image:linear-gradient(rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%)
+	background-image:linear-gradient(rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 1) 100%)
 }
+
+
+
 
 /*------------------------------------------------------------------------------------------------------------*/
 
@@ -686,8 +702,12 @@ div.abs {
 	width:21.9%;
 	height:80%;
 	margin-bottom:-24%;
-	background-image:url("../images/icons/profile.png");
+	background-image:url("../images/icons/profile-zoltan.webp");
 	border-radius:100%
+}
+
+.custom-profile-img {
+    background-image: url("../images/icons/profile-geralt.jpg"); /* Nowy obrazek t³a */
 }
 
 .profile-img > div {
@@ -1590,14 +1610,7 @@ div.abs {
 
 /*------------------------------------------------------------------------------------------------------------*/
 
-.start-game_class {
-	border:.1vw ridge rgb(30, 30, 30)
-}
 
-.start-game_class:hover {
-	border:.1vw solid #fff;
-	box-shadow:0 0 .1vw #fff
-}
 
 #start-game {
 	top:86%;
@@ -1733,7 +1746,12 @@ div.abs,
 	position:fixed
 }
 
-#very_start_bg2,
+/*added */
+#very_start_bg2 {
+	left: 50%;
+	transform: translateX(-50%);	
+}
+
 #carousel .card-lg .card-large-row,
 #carousel .card-lg .card-large-ability,
 #carousel .card-lg .card-large-ability-2,

@@ -3355,11 +3355,11 @@ class DeckMaker {
 			this.start_op_deck.leader = leaders[randomInt(leaders.length)];
 		}
 		if (game.fullAI) {
-			player_me = new Player(0, "Player 1", me_deck, true);
-			player_op = new Player(1, "Player 2", this.start_op_deck, true);
+			player_me = new Player(0, "Geralt", me_deck, true);
+			player_op = new Player(1, "Zoltan", this.start_op_deck, true);
 		} else {
-			player_me = new Player(0, "Player 1", me_deck, false);
-			player_op = new Player(1, "Player 2", this.start_op_deck, true);
+			player_me = new Player(0, "Geralt", me_deck, false);
+			player_op = new Player(1, "Zoltan", this.start_op_deck, true);
 		}
 		this.elem.classList.add("hide");
 		tocar("game_opening", false);

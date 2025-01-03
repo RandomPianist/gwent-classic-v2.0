@@ -1,0 +1,22 @@
+v3.12:
+Fix:
+- Corrected display cards: Tamara Strenger, Tidecloack Ransacker, Leopard (incorrect filename)
+- Corrected display name : Bincy_Blumerholdt -> Bincy Blumerholdt
+
+
+v3.11:
+Graphics:
+- Changed Player 1 and Player 2 names to Geralt and Zoltan
+- Added avatars (Geralt and Zoltan)
+- Upscaled board to 8K
+- Deleted very start text
+- Transform start button into big Gwent card on center
+- Changed start background
+
+
+Gameplay:
+- Changed strength:
+	Geralt: 15 -> 12
+	Ciriila: 15 -> 12
+	Champion of Svalblod: 14 -> 12 
+	Transformed Vildkaarl: 14 -> 12 
